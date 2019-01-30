@@ -13,21 +13,22 @@
 	},
 	"auth": {},
 	"api": {
-		"myamplifyapp": {
+		"graphqlApi": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
 				"securityType": "API_KEY",
-				"GraphQLAPIIdOutput": "bgowu7dwubhzjgfnc6dbpwrbby",
-				"GraphQLAPIEndpointOutput": "https://menxsnrz7vevxeufgnwpsej6de.appsync-api.us-east-1.amazonaws.com/graphql",
-				"GraphQLAPIKeyOutput": "da2-yhdpbeo7pvcq3pyuq5zimpamf4"
+				"GraphQLAPIIdOutput": "egs5gpovkza7bomj3pnhtoaqdy",
+				"GraphQLAPIEndpointOutput": "https://evfygqpzo5bfzph2gi6vctxi5a.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-5v7m4idybzfezpeuelfwwvuhga"
 			},
 			"providerMetadata": {
 				"s3TemplateURL": "https://s3.amazonaws.com/myamplifyapp-20190128142913-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-				"logicalId": "apimyamplifyapp"
+				"logicalId": "apigraphqlApi"
 			},
-			"lastPushTimeStamp": "2019-01-29T16:43:41.188Z",
-			"lastPushDirHash": "4B0xoHgcW/5Bv/BNby9IxI3vUvM="
+			"lastPushTimeStamp": "2019-01-30T22:42:06.121Z",
+			"lastPushDirHash": "YwRPmcgAlrCS+7Dh+hYBihHQa94="
 		}
-	}
+	},
+	"function": {}
 }

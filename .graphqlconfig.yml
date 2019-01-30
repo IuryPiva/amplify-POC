@@ -1,5 +1,5 @@
 projects:
-  myamplifyapp:
+  graphqlApi:
     schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
@@ -10,7 +10,7 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
-        graphQLApiId: bgowu7dwubhzjgfnc6dbpwrbby
+        graphQLApiId: egs5gpovkza7bomj3pnhtoaqdy
       endpoints:
         prod: >-
-          https://menxsnrz7vevxeufgnwpsej6de.appsync-api.us-east-1.amazonaws.com/graphql
+          https://evfygqpzo5bfzph2gi6vctxi5a.appsync-api.us-east-1.amazonaws.com/graphql
